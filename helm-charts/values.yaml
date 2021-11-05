@@ -10,13 +10,6 @@ java:
 istio:
     enabled: true
 
-ingress:
-    annotations:
-        kubernetes.io/ingress.class: istio
-    labels: {}
-    host: ''
-    tlsSecretName: ''
-
 cartsdb:
     image:
         repo: mongo
